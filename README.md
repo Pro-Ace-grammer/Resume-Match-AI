@@ -20,6 +20,18 @@ An intelligent resume ranking and analysis web application built with **Django**
 
 ---
 
+## 🧰 Tech Stack
+
+| Technology       | Used For                                 |
+|------------------|------------------------------------------|
+| Django           | Web framework and API routing            |
+| Django REST      | Building RESTful APIs                    |
+| SpaCy            | Light NLP tasks (can be expanded later)  |
+| Groq API         | LLM-based analysis using LLaMA 3         |
+| pdfplumber       | Extract text from PDF files              |
+| SQLite (default) | Database                                 |
+
+
 ## 🧠 Sample JSON Output
 
 ```json
