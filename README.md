@@ -74,3 +74,10 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+## ⚠️ Known Limitations
+```text
+❌ Basic error handling; no UI (API only)
+📄 Resume parser is simple — no deep NLP yet
+🤖 Groq call assumes valid PDF and JD inputs
+🔐 No authentication system
