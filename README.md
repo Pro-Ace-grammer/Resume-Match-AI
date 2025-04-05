@@ -20,6 +20,19 @@ An intelligent resume ranking and analysis web application built with **Django**
 
 ---
 
+## 🧠 Sample JSON Output
+
+```json
+{
+  "rank": "78%",
+  "skills": ["Python", "Django", "REST API", "NLP"],
+  "total_experience": "2 years",
+  "project_category": ["Web Development", "AI"],
+  "skills_matching": "4 out of 6 technical skills from Job Description"
+}
+```
+
+
 ## 🧰 Tech Stack
 
 | Technology       | Used For                                 |
@@ -32,17 +45,6 @@ An intelligent resume ranking and analysis web application built with **Django**
 | SQLite (default) | Database                                 |
 
 
-## 🧠 Sample JSON Output
-
-```json
-{
-  "rank": "78%",
-  "skills": ["Python", "Django", "REST API", "NLP"],
-  "total_experience": "2 years",
-  "project_category": ["Web Development", "AI"],
-  "skills_matching": "4 out of 6 technical skills from Job Description"
-}
-```
 
 ## 🛠️ How to Run Locally
 
