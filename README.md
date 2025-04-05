@@ -30,3 +30,6 @@ An intelligent resume ranking and analysis web application built with **Django**
   "project_category": ["Web Development", "AI"],
   "skills_matching": "4 out of 6 technical skills from Job Description"
 }
+
+
+
