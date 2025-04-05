@@ -49,7 +49,28 @@ An intelligent resume ranking and analysis web application built with **Django**
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/your-username/resume-match-ai.git
 cd resume-match-ai
+```
+
+### 2. Create & Activate Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Migrate Database
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+### 5. Run Server
+```bash
+python manage.py runserver
+```
