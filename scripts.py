@@ -1,5 +1,4 @@
 import pdfplumber
-import spacy
 
 
 def extract_text_from_pdf(pdf_path):
@@ -11,5 +10,5 @@ def extract_text_from_pdf(pdf_path):
     return text.strip()
 
 
-path="Arslaan_Resume_1.pdf"
+path="Your_Resume.pdf"
 print(extract_text_from_pdf(path))
