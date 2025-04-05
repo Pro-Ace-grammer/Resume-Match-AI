@@ -30,20 +30,7 @@ An intelligent resume ranking and analysis web application built with **Django**
   "project_category": ["Web Development", "AI"],
   "skills_matching": "4 out of 6 technical skills from Job Description"
 }
-
-
-## 🧰 Tech Stack
-
-| Technology       | Used For                                 |
-|------------------|------------------------------------------|
-| Django           | Web framework and API routing            |
-| Django REST      | Building RESTful APIs                    |
-| SpaCy            | Light NLP tasks (can be expanded later)  |
-| Groq API         | LLM-based analysis using LLaMA 3         |
-| pdfplumber       | Extract text from PDF files              |
-| SQLite (default) | Database                                 |
-
-
+```
 
 ## 🛠️ How to Run Locally
 
@@ -52,33 +39,3 @@ An intelligent resume ranking and analysis web application built with **Django**
 ```bash
 git clone https://github.com/your-username/resume-match-ai.git
 cd resume-match-ai
-2. Create & Activate Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install Requirements
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Migrate Database
-bash
-Copy
-Edit
-python manage.py makemigrations
-python manage.py migrate
-5. Run Server
-bash
-Copy
-Edit
-python manage.py runserver
-⚠️ Known Limitations
-❌ Basic error handling; no UI (API only)
-
-📄 Resume parser is simple — no deep NLP yet
-
-🤖 Groq call assumes valid PDF and JD inputs
-
-🔐 No authentication system
