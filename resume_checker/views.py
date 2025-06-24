@@ -50,6 +50,5 @@ class AnalyzeResumeAPI(APIView):
         except Exception as e:
             return Response({
                 'data':False,
-
             })
 

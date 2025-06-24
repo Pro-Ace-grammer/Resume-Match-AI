@@ -13,7 +13,7 @@ def extract_text_from_pdf(pdf_path):
     return text.strip()
 
 
-API_KEY="Your-Groq-API-Key"
+API_KEY="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"
 
 
 def analyze_resume_with_llm(resume_text:str,job_description:str)->dict:
